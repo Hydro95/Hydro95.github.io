@@ -44,12 +44,12 @@ footer {
     font-size: .8em;
 }
 
-ul.posts {
+ul.blogposts, ul.2084posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
-ul.posts li {
+ul.blogposts, ul.2084posts li {
     list-style: none;
 }
 
