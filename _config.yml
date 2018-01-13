@@ -1,5 +1,5 @@
 name: Hydro's Blog
 markdown: kramdown
-future: false
+future: true
 permalink: /blog/:year/:month/:day/:title
 permalink: /U2084/:year/:month/:day/:title
