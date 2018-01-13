@@ -1,1 +1,0 @@
-# PyroGhost950.github.io
