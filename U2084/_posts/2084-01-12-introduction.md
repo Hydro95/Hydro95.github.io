@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "2084: Underground - Intro"
-date: 2018-01-12
+title: "Introduction"
+date: 2084-01-12
 ---
-
-## Introduction
 
 Gray.
 

@@ -1,0 +1,28 @@
+---
+layout: default
+title: 2084 - Underground
+---
+  <h1>{{ page.title }}</h1>
+  <h2>What is this?</h2>
+  <p>This is an ongoing writing project I decided to start for fun. I hope you have as much fun immersing yourself in this world as I had writing and creating it.</p>
+  <p>In fact, this all started out as a Spotify playlist to assemble some cool cyberpunk-esque music covering all kinds of artists and sub-genres. You can check out the links here:</p>
+  <ul class="spotifylist">
+    <li>
+      <h3>2083, the first playlist.</h3>
+      <iframe src="https://open.spotify.com/embed/user/pyrodox-9/playlist/3gX6wkDAdvfQo5BryxTM84"  height="380" frameborder="0" allowtransparency="true">
+      </iframe>
+    </li>
+    <li>
+      <h3>2084 - Underground, the sequel.</h3>
+      <iframe src="https://open.spotify.com/embed/user/pyrodox-9/playlist/1o0qyoZsd7SkPuzmSMCxa0"  height="380" frameborder="0" allowtransparency="true">
+      </iframe>
+    </li>
+  </ul>
+  <br>
+  <h2>2084 - Underground</h2>
+  <ul class="posts">
+
+    {% for post in site.categories.U2084 reversed %}
+      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
