@@ -46,17 +46,10 @@ nav ul li:first-child {
 }
 
 .discordwidget {
-  display: inline;
-  width: 50%;
+  margin: 30px auto;
+  width: 350px;
   height: 350px;
 
-}
-
-.sakamoto {
-  position: relative;
-  width: 40%;
-  display: inline;
-  margin-left: 50px;
 }
 
 .container {
