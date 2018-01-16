@@ -79,27 +79,32 @@ p.meta {
   border-bottom: 1px solid #d5d5d5;
   padding-bottom: 16px;
 }
+
 a {
     text-decoration: none;
     color: #999999;
     transition: 0.2s;
 }
+
 a:hover {
     text-decoration: none;
     color: #777777;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 h2, h3, h4, h5, h6 {
   border-left-width: 4px;
   border-left-color: #ff3737;
   border-left-style: solid;
   padding-left: 16px;
 }
+
 p {
     font-size: 1.1em;
     line-height: 1.4em;
@@ -107,6 +112,7 @@ p {
     margin-bottom: 10px;
     /*color: #333;*/
 }
+
 footer {
     margin-top: 15px;
     font-size: .8em;
