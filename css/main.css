@@ -131,7 +131,7 @@ ul.posts li {
     list-style: none;
 }
 
-div.post li {
+div.post li, ul.styled li {
   list-style: none;
   border-left-width: 2px;
   border-left-color: #ff3737;
@@ -145,6 +145,14 @@ div.post li {
 img {
   width: 100%;
   height: auto;
+}
+
+img.profilepic {
+  width: 30%;
+  height: auto;
+  float: right;
+  margin: 0 15px 15px 15px;
+  border-radius: 3px;
 }
 
 iframe {
