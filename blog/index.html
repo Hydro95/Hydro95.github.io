@@ -6,6 +6,10 @@ title: Hydro's Blog
   <p class="meta"></p>
 	<ul class="posts">
 	  {% for post in site.categories.blog %}
-	    <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li>
+            <a class="postListTitle" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <span class="postListDate">{{ post.date | date_to_string }}</span>
+            <span class="postListLinker"></span>
+        </li>
 	  {% endfor %}
 	</ul>
